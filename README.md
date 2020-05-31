@@ -55,7 +55,7 @@ FaceDetection-Recognition
 │   │   └── knownFaces
 │   │       └── *.jpg         *Here you can add your images*
 │   └── models
-│      └── *.dat
+│       └── *.dat
 ├── Detection
 │   └── ...
 ├── Recognition
