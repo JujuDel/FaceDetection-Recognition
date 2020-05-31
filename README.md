@@ -1,17 +1,18 @@
+
 # Facial Detection & Recognition tool
 
 This tool uses dlib and OpenCV to detect faces, extract them and recognizes them.
 
 It is divided into two parts:
-- Facial detection & Extraction & Aligment
-- Facial recognition
+- Facial Detection & Extraction & Aligment
+- Facial Recognition
 
 ## A - Facial Detection & Extraction & Aligment
 
 ![](data/gifs/FacialDetection.gif)
 
 Two scripts are availables here:
-1. `myStaticFacialDetector.py` which detect faces and computes facial landemarks on images ;
+1. `myStaticFacialDetector.py` which detects faces and computes facial landemarks on images ;
 2. `myWebcamFacialAligment.py`, the main script here, which:
 	- Launch the webcam ;
 	- Detect the faces ;
@@ -47,18 +48,18 @@ To add a new face in the dataset, add the corresponding *.jpg* file in the *data
 FaceDetection-Recognition
 ├── data
 │   ├── gifs
-│	│	└── *.gif
+│   │   └── *.gif
 │   ├── images
-│	│	├── faces
-│	│	│	└── *.jpg
-│	│   └── knownFaces
-│	│		└── *.jpg			*Here you can add your images*
+│   │   ├── faces
+│   │   │   └── *.jpg
+│   │   └── knownFaces
+│   │       └── *.jpg         *Here you can add your images*
 │   └── models
-│		└── *.dat
+│      └── *.dat
 ├── Detection
-|	└── ...
+│   └── ...
 ├── Recognition
-|	└── ...
+│   └── ...
 └── README.md
 ```
 
